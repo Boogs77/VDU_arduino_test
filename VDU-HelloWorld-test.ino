@@ -255,7 +255,7 @@ void setup() {
   setRegister(4, 0x00);   //Pattern table           0x01 --> $0800   
   setRegister(5, 0x20);   //Sprite attribute table  0x20 --> $1000  
   setRegister(6, 0x00);   //Sprite pattern table    0x00 --> $0000     
-  setRegister(7, 0xFD);   //Font & Background color (WHITE & LIGHT BLUE ) 
+  setRegister(7, 0xFD);   //Font & Background color (WHITE & MAGENTA ) 
   
   Serial.println("Clearing RAM"); //Max Ram 16Kbyte
   setWriteAddress(0);
