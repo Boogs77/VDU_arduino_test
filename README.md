@@ -2,6 +2,7 @@
 TMS9918A Arduino Test
 
 Connection
+
 | D0 | D1 | D2 | D3 | D4 | D5 | D6 | D7 |     **TMS9918A (D0 MSB, D7 LSB)**
 
 | A0 | A1 | A2 | D3 |  4 |  5 |  6 |  7 |     **ARDUINO** 
