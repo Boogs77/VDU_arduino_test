@@ -5,7 +5,7 @@ Connection
 
 | D0 | D1 | D2 | D3 | D4 | D5 | D6 | D7 |     **TMS9918A (D0 MSB, D7 LSB)**
 
-| A0 | A1 | A2 | D3 | _4 | _5 | _6 | _7 |     **ARDUINO** 
+| A0 | A1 | A2 | D3 | _4_ | _5_ | _6_ | _7_ |     **ARDUINO** 
 
 **MODE**: PIN 13 of TMS9918A to PIN 2 ARDUINO
 
