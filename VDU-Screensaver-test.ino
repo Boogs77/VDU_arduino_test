@@ -1,4 +1,4 @@
-//Mod by STE & Boogs 2025-03-29
+A//Mod by STE & Boogs 2025-03-29
 
 #define MODE 2   // pin A0 of PCB
 #define CSW 3    // pin 14 of TMS9918A
@@ -263,7 +263,7 @@ void setup() {
   setRegister(4, 0x00);   //Pattern table           0x00 --> $0000   
   setRegister(5, 0x20);   //Sprite attribute table  NOT USED   
   setRegister(6, 0x00);   //Sprite pattern table    NOT USED     
-  setRegister(7, 0xFD);   //Font & Background color (WHITE & LIGHT BLUE ) 
+  setRegister(7, 0xFD);   //Font & Background color (WHITE & MAGENTA ) 
   
   Serial.println("Clearing RAM"); //Max Ram 16Kbyte
   setWriteAddress(0);
